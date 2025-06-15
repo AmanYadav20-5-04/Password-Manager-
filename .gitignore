@@ -1,0 +1,27 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Distribution / Packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE-specific files (examples for common IDEs)
+.idea/             # PyCharm
+.vscode/           # VS Code
+*.sublime-project  # Sublime Text
+*.sublime-workspace
+.DS_Store          # macOS specific
+Thumbs.db          # Windows specific
+
+# Password Manager specific ignored files
+data.json          # DO NOT UPLOAD YOUR SENSITIVE PASSWORD DATA!
